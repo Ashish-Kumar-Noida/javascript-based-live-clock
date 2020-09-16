@@ -1,0 +1,34 @@
+.jumbotron{
+    text-align: center;
+    position: absolute;
+    top :25%;
+    left:15%;
+    right: 15%;
+  }
+
+  img{
+
+     background-image: linear-gradient(#ooo,#ooo),url(image.jpg);
+    
+    /* background-position:center;  */
+     background-size:cover;
+     width:100%;
+    overflow: hidden;
+    background-attachment: fixed;
+
+
+  }
+
+  .bi-alarm{
+    font-size: 150%;
+     margin: 10px;
+  }
+  
+  #learnmore{
+    transition: 1000ms;
+  }
+
+  .navbar navbar-expand-lg navbar-light bg-light{
+    position: sticky;
+   /* top: 0px;*/
+  }
